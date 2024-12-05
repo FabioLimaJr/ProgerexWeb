@@ -1,0 +1,54 @@
+unit uFrmLogin;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, uFrmPadrao, IWCompButton, IWVCLBaseControl, IWBaseControl, IWBaseHTMLControl, IWControl, IWCompEdit,
+  IWVCLComponent, IWBaseLayoutComponent, IWBaseContainerLayout,
+  IWContainerLayout, IWTemplateProcessorHTML, IWHTMLTag;
+
+type
+  TFrmLogin = class(TFrmPadrao)
+    edtLogin: TIWEdit;
+    BTNLOGIN: TIWButton;
+    edtSenha: TIWEdit;
+    BTNRECUPERAR: TIWButton;
+    procedure edtLoginAsyncClick(Sender: TObject; EventParams: TStringList);
+    procedure edtLoginHTMLTag(ASender: TObject; ATag: TIWHTMLTag);
+    procedure edtSenhaHTMLTag(ASender: TObject; ATag: TIWHTMLTag);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmLogin: TFrmLogin;
+
+implementation
+
+{$R *.dfm}
+
+procedure TFrmLogin.edtLoginAsyncClick(Sender: TObject; EventParams: TStringList);
+begin
+  inherited;
+  WebApplication.ShowMessage('CLICOU NO LOGIN');
+end;
+
+procedure TFrmLogin.edtLoginHTMLTag(ASender: TObject; ATag: TIWHTMLTag);
+begin
+  inherited;
+  atag.add('placeholder="Informe seu Usuário');
+end;
+
+procedure TFrmLogin.edtSenhaHTMLTag(ASender: TObject; ATag: TIWHTMLTag);
+begin
+  inherited;
+  atag.add('placeholder="***********"');
+end;
+
+initialization
+  TFrmLogin.SetAsMainForm;
+
+end.

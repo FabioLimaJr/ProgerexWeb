@@ -1,0 +1,62 @@
+unit Template.Litam;
+
+interface
+
+  Const PathTheme = 'app/';
+
+
+  Function GetHead: String;
+  Function GetFooter: String;
+
+  Function GetHeadLogin: String;
+  Function GetFooterLogin: String;
+
+implementation
+
+
+Function GetHead: String;
+begin
+  Result := ' <link rel="icon" href="' + PathTheme + 'img/core-img/favicon.png"> '+
+            ' <link rel="stylesheet" href="' + PathTheme + 'style.css">          ';
+
+end;
+
+Function GetFooter: String;
+begin
+  Result := ' <script src="' + PathTheme + 'js/jquery.min.js"></script>             '+
+            ' <script src="' + PathTheme + 'js/popper.min.js"></script>             '+
+            ' <script src="' + PathTheme + 'js/bootstrap.min.js"></script>          '+
+            ' <script src="' + PathTheme + 'js/bundle.js"></script>                 '+
+            ' <script src="' + PathTheme + 'js/vivus.min.js"></script>              '+
+            ' <script src="' + PathTheme + 'js/svg.animation.js"></script>          '+
+            ' <script src="' + PathTheme + 'js/canvas.js"></script>                 '+
+            ' <script src="' + PathTheme + 'js/collapse.js"></script>               '+
+            ' <script src="' + PathTheme + 'js/settings.js"></script>               '+
+            ' <script src="' + PathTheme + 'js/template.js"></script>               '+
+            ' <script src="' + PathTheme + 'js/default-assets/active.js"></script>  ';
+
+end;
+
+Function GetHeadLogin: String;
+begin
+  Result := ' <link rel="icon" href="' + PathTheme + 'img/core-img/favicon.png"> '+
+            ' <link rel="stylesheet" href="' + PathTheme + 'style.css">          ';
+end;
+
+Function GetFooterLogin: String;
+begin
+  Result := ' <script src="' + PathTheme + 'js/jquery.min.js"></script>            '+
+            ' <script src="' + PathTheme + 'js/popper.min.js"></script>            '+
+            ' <script src="' + PathTheme + 'js/bootstrap.min.js"></script>         '+
+            ' <script src="' + PathTheme + 'js/bundle.js"></script>                '+
+            ' <script src="' + PathTheme + 'js/default-assets/active.js"></script> ';
+
+
+end;
+
+
+
+
+
+
+end.

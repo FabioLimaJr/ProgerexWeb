@@ -1,0 +1,23 @@
+/* :: Profile CSS */
+
+.user-friends img {
+	width: 42px;
+	height: 42px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+}
+
+.profile-hreo-thumb{
+    position: relative;
+    z-index: 1;
+}
+
+.profile-header-info {
+	position: absolute;
+	bottom: 30px;
+	z-index: 2;
+	left: 30px;
+	background-color: rgba(0, 0, 0, 0.50);
+	padding: 30px 50px;
+	border-radius: 3px;
+}

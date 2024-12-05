@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/09/09 17:11:53.000.852,=D:\2024\ProgerexWeb\ServerController.pas</Transaction>
+    <Transaction>2024/09/09 17:11:53.000.322,=D:\2024\ProgerexWeb\Unit1.pas</Transaction>
+    <Transaction>2024/09/09 17:11:53.000.878,=D:\2024\ProgerexWeb\UserSessionUnit.pas</Transaction>
+    <Transaction>2024/09/09 17:14:35.000.486,D:\2024\ProgerexWeb\Unit1.dfm=D:\2024\ProgerexWeb\Source\Padrao\uFrmPadrao.dfm</Transaction>
+    <Transaction>2024/09/09 17:14:35.000.486,D:\2024\ProgerexWeb\Unit1.pas=D:\2024\ProgerexWeb\Source\Padrao\uFrmPadrao.pas</Transaction>
+    <Transaction>2024/09/09 17:15:15.000.553,D:\2024\ProgerexWeb\ServerController.dfm=D:\2024\ProgerexWeb\Source\Controller\uServerController.dfm</Transaction>
+    <Transaction>2024/09/09 17:15:15.000.553,D:\2024\ProgerexWeb\ServerController.pas=D:\2024\ProgerexWeb\Source\Controller\uServerController.pas</Transaction>
+    <Transaction>2024/09/09 17:15:53.000.266,D:\2024\ProgerexWeb\ProgerexWeb.dproj=D:\2024\ProgerexWeb\Project\ProgerexWeb.dproj</Transaction>
+    <Transaction>2024/09/09 17:23:48.000.950,=D:\2024\ProgerexWeb\Project\Unit1.pas</Transaction>
+    <Transaction>2024/09/09 17:25:19.000.845,D:\2024\ProgerexWeb\Project\Unit1.pas=D:\2024\ProgerexWeb\Source\Page\uFrmLogin.pas</Transaction>
+    <Transaction>2024/09/09 17:25:19.000.845,D:\2024\ProgerexWeb\Project\Unit1.dfm=D:\2024\ProgerexWeb\Source\Page\uFrmLogin.dfm</Transaction>
+    <Transaction>2024/09/09 21:24:14.000.621,=J:\2024\ProgerexWeb\Project\Unit1.pas</Transaction>
+    <Transaction>2024/09/09 21:24:26.000.804,J:\2024\ProgerexWeb\Library\Template.Litam.pas=J:\2024\ProgerexWeb\Project\Unit1.pas</Transaction>
+    <Transaction>2024/09/11 21:46:50.000.075,=J:\2024\ProgerexWeb\Project\Unit1.pas</Transaction>
+    <Transaction>2024/09/13 12:37:18.000.496,=C:\2024\ProgerexWeb\Library\SweetAlert2.pas</Transaction>
+    <Transaction>2024/09/16 23:05:16.000.262,=C:\2024\ProgerexWeb\Project\Unit1.pas</Transaction>
+    <Transaction>2024/09/16 23:08:44.000.461,C:\2024\ProgerexWeb\Project\Unit1.pas=C:\2024\ProgerexWeb\Source\Page\uFrmIndex.pas</Transaction>
+    <Transaction>2024/09/16 23:08:44.000.461,C:\2024\ProgerexWeb\Project\Unit1.dfm=C:\2024\ProgerexWeb\Source\Page\uFrmIndex.dfm</Transaction>
+    <Transaction>2024/09/19 20:06:57.622,=C:\2024\ProgerexWeb\Project\Unit1.pas</Transaction>
+    <Transaction>2024/09/19 20:07:41.753,C:\2024\ProgerexWeb\Library\Progerex.pas=C:\2024\ProgerexWeb\Project\Unit1.pas</Transaction>
+    <Transaction>2024/09/19 20:08:20.925,C:\2024\ProgerexWeb\Library\Progerex.Config=</Transaction>
+    <Transaction>2024/09/19 20:08:41.340,=C:\2024\ProgerexWeb\Project\Unit1.pas</Transaction>
+    <Transaction>2024/09/19 20:09:09.532,C:\2024\ProgerexWeb\Library\ProgerexConfig.pas=C:\2024\ProgerexWeb\Project\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
